@@ -1,6 +1,0 @@
-endpoint: https://us1.prisma.sh/idsiemu-cedfd9/smkgram/dev
-datamodel: datamodel.prisma
-
-generate:
-  - generator: javascript-client
-    output: ./generated/prisma-client/
