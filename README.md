@@ -11,7 +11,7 @@ Instragram clone with Express + Prisma + React and React Native
 - [ ] Follow / Unfollow User 
 - [ ] See the full photo
 - [ ] Edit my profile
-- [ ] Create account
+- [X] Create account
 - [ ] Log in    -- 인증관련 도입 이메일로 비밀번호 nodemailer이용
 - [ ] Upload photo
 - [ ] Edit the photo (Delete)
