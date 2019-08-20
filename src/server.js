@@ -1,5 +1,8 @@
 require("dotenv").config()
 //dotenv 불러옴
+import dotenv  from "dotenv";
+import path from "path";
+dotenv.config({path: path.resolve(__dirname, ".env")});
 
 import { GraphQLServer} from "graphql-yoga";
 //grapql-yoga에서 graphQLServer 불러옴
@@ -7,6 +10,10 @@ import { GraphQLServer} from "graphql-yoga";
 //프리셋이 무엇인지는 공부해야함
 import logger from "morgan";
 import schema from "./schema"
+import "./utils";
+import {sendSecretMail} from "./utils";
+
+sendSecretMail("idsiemu@gmail.com","123");
 
 const PORT = process.env.PORT || 4000;
 //env에서 불러옴   설정값은 env에 앞으로 세팅하도록 하자
