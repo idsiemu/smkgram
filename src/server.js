@@ -9,6 +9,10 @@ import { GraphQLServer} from "graphql-yoga";
 import logger from "morgan";
 import schema from "./schema"
 
+//메일 가는지 테스트용
+//import {sendSecretMail} from "./utils";
+// sendSecretMail("idsiemu@gmail.com","123");
+
 const PORT = process.env.PORT || 4000;
 //env에서 불러옴   설정값은 env에 앞으로 세팅하도록 하자
 
