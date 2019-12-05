@@ -10,8 +10,9 @@ Instragram clone with Express + Prisma + React and React Native
 - [X] Comment on a photo    -- 댓글
 - [X] Search by user        -- 사용자 검색
 - [X] Search by location    -- 위치 검색
+- [X] Follow User 
+- [X] Unfollow User 
 - [ ] See user profile
-- [ ] Follow / Unfollow User 
 - [ ] See the full photo
 - [ ] Edit my profile
 - [ ] Upload photo
