@@ -8,8 +8,8 @@ Instragram clone with Express + Prisma + React and React Native
 - [X] Confirm Secret (Login)
 - [X] Like / Unlike a photo -- 좋아요 싫어요 누를수있게
 - [X] Comment on a photo    -- 댓글
-- [ ] Search by user        -- 사용자 검색
-- [ ] Search by location    -- 위치 검색
+- [X] Search by user        -- 사용자 검색
+- [X] Search by location    -- 위치 검색
 - [ ] See user profile
 - [ ] Follow / Unfollow User 
 - [ ] See the full photo
