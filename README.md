@@ -6,8 +6,8 @@ Instragram clone with Express + Prisma + React and React Native
 - [X] Create account
 - [X] Request Secret    -- 인증관련 도입 이메일로 비밀번호 nodemailer이용
 - [X] Confirm Secret (Login)
-- [ ] Like / Unlike a photo -- 좋아요 싫어요 누를수있게
-- [ ] Comment on a photo    -- 댓글
+- [X] Like / Unlike a photo -- 좋아요 싫어요 누를수있게
+- [X] Comment on a photo    -- 댓글
 - [ ] Search by user        -- 사용자 검색
 - [ ] Search by location    -- 위치 검색
 - [ ] See user profile
