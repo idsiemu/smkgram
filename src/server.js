@@ -11,6 +11,7 @@ import schema from "./schema";
 //import passport from "passport";
 import "./passport";
 import { authenticateJwt } from "./passport";
+import { isAuthenticated } from "./middlewares";
 
 //메일 가는지 테스트용
 //import {sendSecretMail} from "./utils";
@@ -35,7 +36,7 @@ const PORT = process.env.PORT || 4000;
 
 const server = new GraphQLServer({
     schema, 
-    context: ({request}) => ({request})
+    context: ({request}) => ({request, isAuthenticated})
 });
 //context는 resolver 사이에 정보를 공유할 때 사용
 //서버생성  생성하면서 type, resolver 등록 해당것들을 아마 사용하겠지

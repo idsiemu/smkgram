@@ -12,9 +12,10 @@ Instragram clone with Express + Prisma + React and React Native
 - [X] Search by location    -- 위치 검색
 - [X] Follow User 
 - [X] Unfollow User 
+- [X] Edit my profile
 - [ ] See user profile
+- [ ] See my profile
 - [ ] See the full photo
-- [ ] Edit my profile
 - [ ] Upload photo
 - [ ] Edit the photo (Delete)
 - [ ] See the feed   -----가장 어렵 근데 먼지잘..
