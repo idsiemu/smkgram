@@ -20,9 +20,9 @@ export default {
     },
     //parants요소는 해당 리졸버의 call하는 상위의 리졸버를 준다 즉 부모 개념이랑 비슷함.  --> 여기서는 fullName 리졸버의 부모인 User가 바로 parent가 된다.
     //그리고 여기서 User란 위의 user: userProfile이 된다. 먼저 정의된 리졸버를 받아온다.
-    User: {
-        fullName: (parent) => {
-            return `${parent.firstName} ${parent.lastName}`;
-        }
-    }
+    // User: {
+    //     fullName: (parent) => {
+    //         return `${parent.firstName} ${parent.lastName}`;
+    //     }
+    // }
 };

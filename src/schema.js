@@ -9,6 +9,7 @@ const allResolvers = fileLoader(path.join(__dirname, "/api/**/*.js"))
 const schema = makeExecutableSchema({
     typeDefs: mergeTypes(allTypes),
     resolvers: mergeResolvers(allResolvers)
+    //me.js 에 하위에 있는 User리졸버를 정의해놓은 것을 seeUser에서도 똑같이 사용할 수 있다. merging이 되있어서 그런듯. 원리는 잘모름
 });
 
 export default schema;
