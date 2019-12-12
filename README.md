@@ -16,7 +16,7 @@ Instragram clone with Express + Prisma + React and React Native
 - [X] See user profile
 - [X] See my profile
 - [X] See the full photo
-- [ ] Upload photo
+- [X] Upload photo
 - [ ] Edit the photo (Delete)
 - [ ] See the feed   -----가장 어렵 근데 먼지잘..
 - [ ] See rooms
