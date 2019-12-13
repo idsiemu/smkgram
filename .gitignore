@@ -62,3 +62,6 @@ typings/
 generated
 prisma.yml
 yarn.lock
+
+# package-lock.json
+package-lock.json
