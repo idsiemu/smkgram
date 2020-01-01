@@ -1,11 +1,13 @@
 import { prisma } from "../../../../generated/prisma-client";
-import { COMMENT_FRAGMENT, FULL_POST_FRAGMENT } from "../../../fragments";
+//import { COMMENT_FRAGMENT, FULL_POST_FRAGMENT } from "../../../fragments";
+//computed.js => Post.js 를 통해서 fragment를 더 이상 사용하지 않도록한다.
 
 export default {
     Query:{
         seeFullPost: async(_,args) => {
             const { id } = args;
-            return prisma.post({id}).$fragment(FULL_POST_FRAGMENT);
+            return prisma.post({id});
+            //return prisma.post({id}).$fragment(FULL_POST_FRAGMENT);
 
             // 리팩토링 fragments.js 에 정의를 통해서 한꺼번에 처리함.
             // const post = await prisma.post({id});

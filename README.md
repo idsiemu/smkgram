@@ -19,7 +19,7 @@ Instragram clone with Express + Prisma + React and React Native
 - [X] Upload photo
 - [X] Edit the photo (Delete)
 - [X] See the feed   -----가장 어렵 근데 먼지잘..
-- [ ] See rooms
-- [ ] See room
-- [ ] Send private Message
-- [ ] Receive Message (Realtime)
+- [X] See rooms
+- [X] See room
+- [X] Send private Message
+- [X] Receive Message (Realtime)
