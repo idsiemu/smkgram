@@ -1,11 +1,11 @@
-# type Query{
-#     me: User!
-# }
+type Query{
+    me: User!
+}
 # type ProfileResponse {
 #     user: User!
 #     posts: [Post!]!
 # }
 
-type Query{
-    me: UserProfile!
-}
+# type Query{
+#     me: UserProfile!
+# }
