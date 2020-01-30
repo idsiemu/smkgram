@@ -1,6 +1,6 @@
 type User {
   id: ID! @id
-  avatar: String
+  avatar: String @default(value: "https://www.tippingkorea.co.kr/images/icon/my_info_no_image.png")
   name: String! @unique
   email: String! @unique
   firstName: String @default(value: "")
