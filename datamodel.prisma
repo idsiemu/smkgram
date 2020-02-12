@@ -71,9 +71,3 @@ type Message {
   createdAt: DateTime! @createdAt
   updatedAt: DateTime! @updatedAt
 }
-
-type UserProfile {
-    id: ID! @id
-    user: User!
-    posts: [Post!]!
-}
