@@ -41,7 +41,6 @@ export default {
             }
         },
         isSelf: async(parent, _, { request }) => {
-            console.log(2342);
             const { user } = request;
             const { id: parentId } = parent;
             return user.id === parentId;
