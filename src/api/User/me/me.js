@@ -7,6 +7,7 @@ export default {
             //여기서 _ <- 이것을 console.log(_)로 호출하면 undefined라고 뜬다. 즉 먼저 정의된 리졸버가 없기때문에 parent자체가 정의될 수 없는 것이다.
             isAuthenticated(request);
             const { user } = request;
+            console.log(user);
             return await prisma.user({ id: user.id });
 
             // 2020.01.14
